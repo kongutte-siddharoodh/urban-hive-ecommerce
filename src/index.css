@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+}
+
+/* Home Button */
+.login-btn {
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  letter-spacing: 0.2rem;
+  background: #eeeeee;
+  color: #eeeeee;
+  animation: box-login 1s infinite;
+}
+
+.login-btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #222831;
+}
+
+.login-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes box-login {
+  0% {
+    box-shadow: #222831;
+  }
+  50% {
+    box-shadow: 0 0 25px #eeeeee;
+  }
+  100% {
+    box-shadow: #222831;
+  }
+}
+
+/* Login Button CSS */
+.login-btn {
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  letter-spacing: 0.2rem;
+  background: #eeeeee;
+  color: #eeeeee;
+  animation: box-login 1s infinite;
+}
+
+.login-btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #222831;
+}
+
+.login-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes box-login {
+  0% {
+    box-shadow: #222831;
+  }
+  50% {
+    box-shadow: 0 0 25px #eeeeee;
+  }
+  100% {
+    box-shadow: #222831;
+  }
+}
+
+/* Shop Now Button CSS */
+.shop-now-btn {
+  position: relative;
+  background: #eee;
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  transition: 0.2s;
+}
+
+.shop-now-btn:hover {
+  letter-spacing: 0.2rem;
+  background: #eee;
+  color: #eee;
+  animation: box-shopnow 1s infinite;
+}
+
+.shop-now-btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #76abae;
+}
+
+.shop-now-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes box-shopnow {
+  0% {
+    box-shadow: #eee;
+  }
+  50% {
+    box-shadow: 0 0 25px #eee;
+  }
+  100% {
+    box-shadow: #eee;
+  }
+}
+
+/* Explore Button CSS */
+.explore-btn {
+  position: relative;
+  background: #222831;
+  color: #222831;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  transition: 0.2s;
+}
+
+.explore-btn:hover {
+  letter-spacing: 0.2rem;
+  background: #222831;
+  color: #222831;
+  animation: box-explore 1s infinite;
+}
+
+.explore-btn::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #eeeeee;
+}
+
+.explore-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes box-explore {
+  0% {
+    box-shadow: #222831;
+  }
+  50% {
+    box-shadow: 0 0 25px #222831;
+  }
+  100% {
+    box-shadow: #222831;
+  }
+}
+
+.cat-comp:hover {
+  transform: scale(1.1);
+  background-color: #8bcfd1;
+}
